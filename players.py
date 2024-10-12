@@ -7,5 +7,7 @@ df = pd.read_excel('bayern_players.xlsx')
 print(df.head())
 
 print(df.columns)
+print(df.shape)
+print(df.describe())
 
-# print data for Harry Kane
+# print data for Jugador==Harry Kane
